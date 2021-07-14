@@ -5,15 +5,17 @@
   
 
   
-  <title>见闻集</title>
+  <title>Hello World | 见闻集</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="如果有来生, 要做一颗树">
-<meta property="og:type" content="website">
-<meta property="og:title" content="见闻集">
-<meta property="og:url" content="https://monster916.github.io/index.html">
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://monster916.github.io/news/2021/07/13/hello-world/index.html">
 <meta property="og:site_name" content="见闻集">
-<meta property="og:description" content="如果有来生, 要做一颗树">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-07-13T12:16:57.552Z">
+<meta property="article:modified_time" content="2021-07-14T11:53:28.807Z">
 <meta property="article:author" content="Mr.陈">
 <meta name="twitter:card" content="summary">
   
@@ -66,84 +68,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-图形学中的数学基础" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/news/2021/07/13/%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/" class="article-date">
-  <time datetime="2021-07-13T14:04:26.000Z" itemprop="datePublished">2021-07-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/news/2021/07/13/%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/">图形学中的数学基础</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="矩阵变换"><a href="#矩阵变换" class="headerlink" title="矩阵变换"></a>矩阵变换</h1><h1 id="点乘"><a href="#点乘" class="headerlink" title="点乘"></a>点乘</h1><h1 id="叉乘"><a href="#叉乘" class="headerlink" title="叉乘"></a>叉乘</h1>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://monster916.github.io/news/2021/07/13/%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/" data-id="ckr3fspl80005h8u48rfic0hs" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-firstBlog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/news/2021/07/13/firstBlog/" class="article-date">
-  <time datetime="2021-07-13T13:37:46.000Z" itemprop="datePublished">2021-07-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/news/2021/07/13/firstBlog/">图形学入门</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="加载图片"><a href="#加载图片" class="headerlink" title="加载图片"></a>加载图片</h1><h1 id="加载图片-1"><a href="#加载图片-1" class="headerlink" title="加载图片"></a>加载图片</h1><figure class="highlight glsl"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">#iChannel0 "file://C:\\Users\\Administrator\\Desktop\\19.jpg"</span></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="type">void</span> mainImage( <span class="keyword">out</span> <span class="type">vec4</span> fragColor, <span class="keyword">in</span> <span class="type">vec2</span> fragCoord )</span><br><span class="line">{</span><br><span class="line">    <span class="comment">//归一化的屏幕坐标(from 0 to 1)</span></span><br><span class="line">    <span class="type">vec2</span> uv = fragCoord / iResolution.xy;</span><br><span class="line">   </span><br><span class="line">    <span class="comment">//采样图像并显示</span></span><br><span class="line">    <span class="type">vec3</span> col = <span class="built_in">texture</span>(iChannel0, uv).rgb;</span><br><span class="line">    fragColor = <span class="type">vec4</span>(col, <span class="number">1.0</span>);</span><br><span class="line">} </span><br></pre></td></tr></tbody></table></figure>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://monster916.github.io/news/2021/07/13/firstBlog/" data-id="ckr3fspke0001h8u424ez120d" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/news/2021/07/13/hello-world/" class="article-date">
   <time datetime="2021-07-13T12:16:57.552Z" itemprop="datePublished">2021-07-13</time>
@@ -156,8 +81,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/news/2021/07/13/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      Hello World
     </h1>
   
 
@@ -188,11 +113,23 @@
     </footer>
   </div>
   
-</article>
-
+    
+<nav id="article-nav">
+  
+    <a href="/news/2021/07/13/firstBlog/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          图形学入门
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
   
-
+</article>
 
 </section>
         
