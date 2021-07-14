@@ -6,7 +6,7 @@
   <link href="https://monster916.github.io/atom.xml" rel="self"/>
   
   <link href="https://monster916.github.io/"/>
-  <updated>2021-07-14T12:46:40.604Z</updated>
+  <updated>2021-07-14T13:09:00.907Z</updated>
   <id>https://monster916.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shader入门</title>
+    <link href="https://monster916.github.io/news/2021/07/14/shader%E5%85%A5%E9%97%A8/"/>
+    <id>https://monster916.github.io/news/2021/07/14/shader%E5%85%A5%E9%97%A8/</id>
+    <published>2021-07-14T13:09:00.000Z</published>
+    <updated>2021-07-14T13:09:00.907Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第一篇博客</title>
